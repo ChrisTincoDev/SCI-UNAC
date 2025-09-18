@@ -1,0 +1,16 @@
+[
+    {
+        "username": "admin",
+        "name": "Christian Tinco",
+        "password": "123",
+        "role": "Administrador",
+        "profilePic": "/christian_profile.png"
+    },
+    {
+        "username": "empleado",
+        "name": "Juan Perez",
+        "password": "456",
+        "role": "Empleado",
+        "profilePic": "/juan_profile.png"
+    }
+]
