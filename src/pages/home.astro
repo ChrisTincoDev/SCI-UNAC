@@ -1,17 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import SideBar from '../components/Home/SideBar.astro';
+import AppLayout from '../layouts/AppLayout.astro';
 import ContentHome from '../components/Home/ContentHome.astro';
 import '../styles/global.css'
-
-const name = Astro.cookies.get("name")?.value || "Invitado";
-const role = Astro.cookies.get("role")?.value || "sin rol";
-const profilePic = Astro.cookies.get("profilePic")?.value || "/default_profile.png";
 ---
 
-<Layout title="Inicio | Sistema de Control de Inventarios">
-    <div class="flex h-screen w-screen overflow-hidden bg-[#ecedf8] p-4 gap-4">
-        <SideBar />
-        <ContentHome name={name} role={role} profilePic={profilePic} />
+<AppLayout title="Inicio | Sistema de Control de Inventarios">
+    <div class="w-full h-full">
+        <ContentHome />
     </div>
-</Layout>
+</AppLayout>

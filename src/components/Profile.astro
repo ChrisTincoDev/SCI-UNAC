@@ -1,0 +1,18 @@
+---
+const { name, role, profilePic } = Astro.props;
+---
+
+<div class="w-full text-black" transition:persist transition:name="profile-bar" transition:animate="none">
+    <div class="w-full p-6 gap-4 flex items-center justify-end">
+        <div class="bg-white rounded-full p-3 shadow-md cursor-pointer hover:shadow-lg hover:bg-[#3c63ff] hover:text-white duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg>
+        </div>
+        <div>
+            <img src={profilePic} alt="Profile Picture" class="w-12 h-12 rounded-full object-cover"/>
+        </div>
+        <div class="flex flex-col">
+            <h1 class="text-base font-semibold">{name}</h1>
+            <h2 class="text-sm text-gray-600">{role}</h2>
+        </div>
+    </div>
+</div>

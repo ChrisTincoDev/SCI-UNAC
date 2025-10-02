@@ -1,7 +1,12 @@
 ---
 import '../styles/global.css'
 import SideBar from "../components/SideBar.astro";
+import Profile from '../components/Profile.astro';
 const { title } = Astro.props;
+const name = Astro.cookies.get("name")?.value || "Invitado";
+const role = Astro.cookies.get("role")?.value || "sin rol";
+const profilePic = Astro.cookies.get("profilePic")?.value || "/default_profile.png";
+import { ClientRouter } from "astro:transitions";
 ---
 
 <!doctype html>
@@ -15,10 +20,23 @@ const { title } = Astro.props;
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<ClientRouter />
 	</head>
 	<body>
-		<slot />
-	</body>
+		<div class="flex h-screen w-screen overflow-hidden p-4 bg-[#ecedf8] gap-4">
+			<!-- Sidebar fijo -->
+			<SideBar transition:persist />
+            <div class="flex flex-col w-full h-full">
+                <Profile name={name} role={role} profilePic={profilePic} transition:persist />
+
+                <!-- Contenido que cambiará -->
+                <main class="flex-1 w-full" transition:animate="fade">
+                    <slot />
+                </main>
+            </div>
+			
+		</div>
+	</body>	
 </html>
 
 <style>
