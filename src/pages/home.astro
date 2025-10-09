@@ -1,11 +1,22 @@
 ---
 import AppLayout from '../layouts/AppLayout.astro';
-import ContentHome from '../components/Home/ContentHome.astro';
+import DiaryStats from '../components/Home/DiaryStats.jsx';
+import BestProducts from '../components/Home/BestProducts.jsx';
+import PurchasesCount from '../components/Home/PurchasesCount.jsx';
+import SalesCount from '../components/Home/SalesCount.jsx';
+
 import '../styles/global.css'
 ---
 
 <AppLayout title="Inicio | Sistema de Control de Inventarios">
-    <div class="w-full h-full">
-        <ContentHome />
+    <div class="w-full h-full flex flex-col gap-4">
+        <div class="w-full h-3/5 flex gap-4">
+            <DiaryStats />
+            <BestProducts client:load/>
+        </div>
+        <div class="w-full h-2/5 flex gap-4">
+            <PurchasesCount />
+            <SalesCount />
+        </div>
     </div>
 </AppLayout>
