@@ -1,0 +1,23 @@
+[
+  { "id": 1, "name": "Plato de cerámica", "quantity": 10, "price": 8.5 },
+  { "id": 2, "name": "Taza decorativa", "quantity": 15, "price": 6.0 },
+  { "id": 3, "name": "Vaso de vidrio", "quantity": 20, "price": 4.5 },
+  { "id": 4, "name": "Termo acero inoxidable", "quantity": 8, "price": 25.0 },
+  { "id": 5, "name": "Fuente para horno", "quantity": 5, "price": 18.0 },
+  { "id": 6, "name": "Cuchillos de cocina", "quantity": 12, "price": 22.0 },
+  { "id": 7, "name": "Juego de cubiertos", "quantity": 9, "price": 30.0 },
+  { "id": 8, "name": "Tabla para picar", "quantity": 14, "price": 12.0 },
+  { "id": 9, "name": "Tazón grande", "quantity": 7, "price": 10.0 },
+  { "id": 10, "name": "Botella térmica", "quantity": 6, "price": 20.0 },
+  { "id": 11, "name": "Set de especias", "quantity": 11, "price": 15.0 },
+  { "id": 12, "name": "Colador de malla", "quantity": 13, "price": 9.0 },
+  { "id": 13, "name": "Olla de presión", "quantity": 4, "price": 45.0 },
+  { "id": 14, "name": "Sartén antiadherente", "quantity": 10, "price": 28.0 },
+  { "id": 15, "name": "Cafetera italiana", "quantity": 8, "price": 35.0 },
+  { "id": 16, "name": "Hervidor eléctrico", "quantity": 5, "price": 40.0 },
+  { "id": 17, "name": "Batidora de mano", "quantity": 7, "price": 32.0 },
+  { "id": 18, "name": "Tostadora", "quantity": 6, "price": 27.0 },
+  { "id": 19, "name": "Microondas compacto", "quantity": 3, "price": 60.0 },
+  { "id": 20, "name": "Refrigerador pequeño", "quantity": 2, "price": 150.0 }
+
+]

@@ -10,11 +10,11 @@ export const POST: APIRoute = async ({ request, redirect, cookies }) => {
     .find((u) => u.username === username && u.password === password);
 
   if (user) {
-    // Guardamos cookies 1 hora
+
     cookies.set("username", user.username, {
       path: "/",
       maxAge: 60 * 60,
-      httpOnly: false, // 👈 importante para que Astro pueda leerlo en client-side también
+      httpOnly: false, 
     });
     cookies.set("role", user.role, {
       path: "/",

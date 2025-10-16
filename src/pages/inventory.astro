@@ -1,11 +1,11 @@
 ---
 import AppLayout from '../layouts/AppLayout.astro';
-import ContentInventory from '../components/Inventory/ContentInventory.astro';
+import ContentInventory from '../components/Inventory/ContentInventory.jsx';
 import '../styles/global.css'
 ---
 
 <AppLayout title="Inventario | Sistema de Control de Inventarios">
     <div class="w-full h-full">
-        <ContentInventory />
+        <ContentInventory client:load/>
     </div>
 </AppLayout>
