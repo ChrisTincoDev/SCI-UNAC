@@ -1,0 +1,38 @@
+{
+  "purchases": [
+    {
+      "id": 1,
+      "voucher": "C-1001",
+      "productName": "Plato de cerámica",
+      "quantity": 10,
+      "unitPrice": 8.5,
+      "date": "2025-10-20"
+    },
+    {
+      "id": 2,
+      "voucher": "C-1002",
+      "productName": "Taza de porcelana",
+      "quantity": 5,
+      "unitPrice": 6.0,
+      "date": "2025-10-22"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "voucher": "V-2001",
+      "productName": "Plato de cerámica",
+      "quantity": 3,
+      "unitPrice": 10.0,
+      "date": "2025-10-22"
+    },
+    {
+      "id": 2,
+      "voucher": "V-2002",
+      "productName": "Taza de porcelana",
+      "quantity": 2,
+      "unitPrice": 9.0,
+      "date": "2025-10-23"
+    }
+  ]
+}

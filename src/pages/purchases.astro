@@ -1,11 +1,11 @@
 ---
 import AppLayout from '../layouts/AppLayout.astro';
-import ContentPurchases from '../components/Purchases/ContentPurchases.astro';
+import ContentPurchases from '../components/Purchases/ContentPurchases.jsx';
 import '../styles/global.css'
 ---
 
 <AppLayout title="Compras | Sistema de Control de Inventarios">
     <div class="w-full h-full">
-        <ContentPurchases />
+        <ContentPurchases client:load/>
     </div>
 </AppLayout>
