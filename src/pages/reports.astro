@@ -1,11 +1,11 @@
 ---
 import AppLayout from '../layouts/AppLayout.astro';
-import ContentReports from '../components/Reports/ContentReports.astro';
+import ContentReports from '../components/Reports/ContentReports.jsx';
 import '../styles/global.css'
 ---
 
 <AppLayout title="Reportes | Sistema de Control de Inventarios">
-    <div class="w-full h-full">
-        <ContentReports />
+    <div class="w-full h-full flex gap-4 flex-col"> 
+        <ContentReports client:load/>
     </div>
 </AppLayout>

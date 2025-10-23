@@ -1,0 +1,6 @@
+[
+  { "codigo": "P001", "fecha": "2025-10-15", "inventario_registrado": 95, "inventario_fisico": 100 },
+  { "codigo": "P002", "fecha": "2025-10-15", "inventario_registrado": 70, "inventario_fisico": 75 },
+  { "codigo": "P003", "fecha": "2025-10-16", "inventario_registrado": 50, "inventario_fisico": 50 },
+  { "codigo": "P004", "fecha": "2025-10-17", "inventario_registrado": 20, "inventario_fisico": 25 }
+]

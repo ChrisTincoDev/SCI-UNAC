@@ -1,23 +1,286 @@
 [
-  { "id": 1, "name": "Plato de cerámica", "quantity": 10, "price": 8.5 },
-  { "id": 2, "name": "Taza decorativa", "quantity": 15, "price": 6.0 },
-  { "id": 3, "name": "Vaso de vidrio", "quantity": 20, "price": 4.5 },
-  { "id": 4, "name": "Termo acero inoxidable", "quantity": 8, "price": 25.0 },
-  { "id": 5, "name": "Fuente para horno", "quantity": 5, "price": 18.0 },
-  { "id": 6, "name": "Cuchillos de cocina", "quantity": 12, "price": 22.0 },
-  { "id": 7, "name": "Juego de cubiertos", "quantity": 9, "price": 30.0 },
-  { "id": 8, "name": "Tabla para picar", "quantity": 14, "price": 12.0 },
-  { "id": 9, "name": "Tazón grande", "quantity": 7, "price": 10.0 },
-  { "id": 10, "name": "Botella térmica", "quantity": 6, "price": 20.0 },
-  { "id": 11, "name": "Set de especias", "quantity": 11, "price": 15.0 },
-  { "id": 12, "name": "Colador de malla", "quantity": 13, "price": 9.0 },
-  { "id": 13, "name": "Olla de presión", "quantity": 4, "price": 45.0 },
-  { "id": 14, "name": "Sartén antiadherente", "quantity": 10, "price": 28.0 },
-  { "id": 15, "name": "Cafetera italiana", "quantity": 8, "price": 35.0 },
-  { "id": 16, "name": "Hervidor eléctrico", "quantity": 5, "price": 40.0 },
-  { "id": 17, "name": "Batidora de mano", "quantity": 7, "price": 32.0 },
-  { "id": 18, "name": "Tostadora", "quantity": 6, "price": 27.0 },
-  { "id": 19, "name": "Microondas compacto", "quantity": 3, "price": 60.0 },
-  { "id": 20, "name": "Refrigerador pequeño", "quantity": 2, "price": 150.0 }
-
+  {
+    "id": 1,
+    "name": "Plato de cerámica",
+    "quantity": 10,
+    "price": 8.5,
+    "records": [
+      { "date": "2025-10-20", "sales": 5, "initial_stock": 12, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-21", "sales": 3, "initial_stock": 7, "final_stock": 4, "registered_stock": 4, "physical_stock": 5 },
+      { "date": "2025-10-22", "sales": 2, "initial_stock": 4, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 2, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 1, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-25", "sales": 1, "initial_stock": 1, "final_stock": 0, "registered_stock": 0, "physical_stock": 0 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 0, "final_stock": 0, "registered_stock": 0, "physical_stock": 0 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Taza decorativa",
+    "quantity": 15,
+    "price": 6.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 4, "initial_stock": 18, "final_stock": 14, "registered_stock": 13, "physical_stock": 13 },
+      { "date": "2025-10-21", "sales": 6, "initial_stock": 14, "final_stock": 8, "registered_stock": 8, "physical_stock": 8 },
+      { "date": "2025-10-22", "sales": 2, "initial_stock": 8, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 5, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-25", "sales": 3, "initial_stock": 5, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vaso de vidrio",
+    "quantity": 20,
+    "price": 4.5,
+    "records": [
+      { "date": "2025-10-20", "sales": 8, "initial_stock": 25, "final_stock": 17, "registered_stock": 17, "physical_stock": 18 },
+      { "date": "2025-10-21", "sales": 5, "initial_stock": 17, "final_stock": 12, "registered_stock": 12, "physical_stock": 12 },
+      { "date": "2025-10-22", "sales": 3, "initial_stock": 12, "final_stock": 9, "registered_stock": 9, "physical_stock": 9 },
+      { "date": "2025-10-23", "sales": 2, "initial_stock": 9, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-24", "sales": 1, "initial_stock": 7, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-26", "sales": 2, "initial_stock": 6, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Termo acero inoxidable",
+    "quantity": 8,
+    "price": 25.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 3, "initial_stock": 10, "final_stock": 7, "registered_stock": 7, "physical_stock": 6 },
+      { "date": "2025-10-21", "sales": 2, "initial_stock": 7, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 5, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-24", "sales": 1, "initial_stock": 4, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-25", "sales": 1, "initial_stock": 3, "final_stock": 2, "registered_stock": 2, "physical_stock": 1 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fuente para horno",
+    "quantity": 5,
+    "price": 18.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 5, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 5, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-26", "sales": 1, "initial_stock": 4, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cuchillos de cocina",
+    "quantity": 12,
+    "price": 22.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 4, "initial_stock": 14, "final_stock": 10, "registered_stock": 10, "physical_stock": 10 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 10, "final_stock": 9, "registered_stock": 9, "physical_stock": 9 },
+      { "date": "2025-10-23", "sales": 2, "initial_stock": 9, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 7, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-25", "sales": 1, "initial_stock": 7, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Juego de cubiertos",
+    "quantity": 9,
+    "price": 30.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 2, "initial_stock": 9, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 7, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 7, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-26", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tabla para picar",
+    "quantity": 14,
+    "price": 12.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 3, "initial_stock": 16, "final_stock": 13, "registered_stock": 13, "physical_stock": 12 },
+      { "date": "2025-10-22", "sales": 2, "initial_stock": 13, "final_stock": 11, "registered_stock": 11, "physical_stock": 11 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 11, "final_stock": 10, "registered_stock": 10, "physical_stock": 10 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 10, "final_stock": 10, "registered_stock": 10, "physical_stock": 10 },
+      { "date": "2025-10-25", "sales": 1, "initial_stock": 10, "final_stock": 9, "registered_stock": 9, "physical_stock": 8 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 9, "final_stock": 9, "registered_stock": 9, "physical_stock": 9 }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tazón grande",
+    "quantity": 7,
+    "price": 10.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 2, "initial_stock": 8, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 5, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-24", "sales": 1, "initial_stock": 5, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Botella térmica",
+    "quantity": 6,
+    "price": 20.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 5, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 5, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Set de especias",
+    "quantity": 11,
+    "price": 15.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 3, "initial_stock": 12, "final_stock": 9, "registered_stock": 9, "physical_stock": 9 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 9, "final_stock": 8, "registered_stock": 8, "physical_stock": 8 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 8, "final_stock": 8, "registered_stock": 8, "physical_stock": 8 },
+      { "date": "2025-10-24", "sales": 2, "initial_stock": 8, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-26", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Colador de malla",
+    "quantity": 13,
+    "price": 9.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 2, "initial_stock": 15, "final_stock": 13, "registered_stock": 13, "physical_stock": 13 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 13, "final_stock": 12, "registered_stock": 12, "physical_stock": 12 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 12, "final_stock": 12, "registered_stock": 12, "physical_stock": 12 },
+      { "date": "2025-10-24", "sales": 1, "initial_stock": 12, "final_stock": 11, "registered_stock": 11, "physical_stock": 10 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 11, "final_stock": 11, "registered_stock": 11, "physical_stock": 11 },
+      { "date": "2025-10-26", "sales": 1, "initial_stock": 11, "final_stock": 10, "registered_stock": 10, "physical_stock": 10 }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Olla de presión",
+    "quantity": 4,
+    "price": 45.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 4, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 3, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 3, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-24", "sales": 1, "initial_stock": 3, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Sartén antiadherente",
+    "quantity": 10,
+    "price": 28.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 2, "initial_stock": 12, "final_stock": 10, "registered_stock": 10, "physical_stock": 10 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 10, "final_stock": 9, "registered_stock": 9, "physical_stock": 9 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 9, "final_stock": 8, "registered_stock": 8, "physical_stock": 8 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 8, "final_stock": 8, "registered_stock": 8, "physical_stock": 8 },
+      { "date": "2025-10-25", "sales": 1, "initial_stock": 8, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 7, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cafetera italiana",
+    "quantity": 8,
+    "price": 35.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 2, "initial_stock": 9, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 7, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-25", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 5, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Hervidor eléctrico",
+    "quantity": 5,
+    "price": 40.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 5, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 4, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 3, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 3, "final_stock": 3, "registered_stock": 3, "physical_stock": 3 },
+      { "date": "2025-10-26", "sales": 1, "initial_stock": 3, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Batidora de mano",
+    "quantity": 7,
+    "price": 32.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 8, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 7, "final_stock": 7, "registered_stock": 7, "physical_stock": 7 },
+      { "date": "2025-10-23", "sales": 1, "initial_stock": 7, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 6, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-26", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Tostadora",
+    "quantity": 6,
+    "price": 27.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 2, "initial_stock": 8, "final_stock": 6, "registered_stock": 6, "physical_stock": 6 },
+      { "date": "2025-10-22", "sales": 1, "initial_stock": 6, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 5, "final_stock": 5, "registered_stock": 5, "physical_stock": 5 },
+      { "date": "2025-10-24", "sales": 1, "initial_stock": 5, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 4, "final_stock": 4, "registered_stock": 4, "physical_stock": 4 }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Microondas compacto",
+    "quantity": 3,
+    "price": 60.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 3, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 2, "final_stock": 2, "registered_stock": 2, "physical_stock": 2 }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Refrigerador pequeño",
+    "quantity": 2,
+    "price": 150.0,
+    "records": [
+      { "date": "2025-10-20", "sales": 1, "initial_stock": 2, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-22", "sales": 0, "initial_stock": 1, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-23", "sales": 0, "initial_stock": 1, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-24", "sales": 0, "initial_stock": 1, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-25", "sales": 0, "initial_stock": 1, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 },
+      { "date": "2025-10-26", "sales": 0, "initial_stock": 1, "final_stock": 1, "registered_stock": 1, "physical_stock": 1 }
+    ]
+  }
 ]
